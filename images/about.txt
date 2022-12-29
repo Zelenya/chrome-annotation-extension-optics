@@ -1,0 +1,2 @@
+Copyright 2020 Twitter, Inc and other contributors (https://github.com/twitter/twemoji)
+CC-BY 4.0
