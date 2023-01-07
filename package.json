@@ -1,15 +1,19 @@
 {
-  "name": "augmented-values-extension",
+  "name": "named-optic-operators-extension",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "parcel build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "browserslist": "last 3 Chrome versions",
   "targets": {
     "content_script": {
-      "source": "./src/content.js",
+      "source": [
+        "./src/content.js",
+        "./src/background.js"
+      ],
       "context": "browser",
       "outputFormat": "global"
     }
